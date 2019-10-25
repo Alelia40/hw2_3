@@ -16,6 +16,11 @@ int main(void){
 		
 		edx = edx - eax;
 		
+		if(eax == a){
+			eax = a;
+			printf("%d", eax);
+		}
+		
 		a = a + 1;
 	}
 	
